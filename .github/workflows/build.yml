@@ -25,6 +25,8 @@ jobs:
           - nibble
           - summer_breeze_right
           - summer_breeze_left
+          - breeze_left
+          - breeze_right
         cmake-args: [""]
     steps:
       - name: Checkout
