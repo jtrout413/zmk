@@ -18,14 +18,14 @@
 // Ref: https://zmkfirmware.dev/docs/codes/
 
 // ----------------------------------------------------------------------------------------------------------------------------------
-// |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   | BSPC | | -/_ | =/+  | HOME |
-// |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |  [   | |  ]  | DEL  | END  |
+// |   ESC   |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   | BSPC | | -/_ | =/+  | HOME |
+// |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |  DEL   | |  [  | ]  |  BSLH  |
 // | SHIFT |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |  '   | |     |  UP  |      |
-// |  CTRL |  Z  |  X  |  C   |  V   |  B   |                   |  N   |  M    |  ,    |  .   |   /   |  \   | |  L  |  DN  |  R   |
+// |  CTRL |  Z  |  X  |  C   |  V   |  B   |                   |  N   |  M    |  ,    |  .   |   /   |  SHIFT   | |  L  |  DN  |  R   |
 //                     | ESC  | GUI  | ALT  | SPACE |   | ENTER | RALT | RAISE | LOWER |
 			bindings = <
-&kp GRAVE &kp N1 &kp N2 &kp N3  &kp N4   &kp N5                     &kp N6   &kp N7   &kp N8    &kp N9  &kp N0   &kp BSPC   &kp MINUS &kp EQUAL &kp HOME
-&kp TAB   &kp Q  &kp W  &kp E   &kp R    &kp T                      &kp Y    &kp U    &kp I     &kp O   &kp P    &kp LBKT   &kp RBKT  &kp DEL   &kp END
+&kp ESC &kp N1 &kp N2 &kp N3  &kp N4   &kp N5                     &kp N6   &kp N7   &kp N8    &kp N9  &kp N0   &kp BSPC   &kp MINUS &kp EQUAL &kp HOME
+&kp TAB   &kp Q  &kp W  &kp E   &kp R    &kp T                      &kp Y    &kp U    &kp I     &kp O   &kp P    &kp DEL   &kp LBKT  &kp RBKT   &kp BSLH
 &kp LSHFT &kp A  &kp S  &kp D   &kp F    &kp G                      &kp H    &kp J    &kp K     &kp L   &kp SEMI &kp APOS             &kp UP 
 &kp LSHFT &kp Z  &kp X  &kp C   &kp V    &kp B                      &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH &kp RSHIFT   &kp LEFT  &kp DOWN  &kp RIGHT
                         &kp LCTRL &kp LALT &kp LGUI &kp SPACE &kp RET &kp SPACE &kp C_VOL_DN    &kp C_VOL_UP
